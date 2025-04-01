@@ -1,0 +1,23 @@
+{
+  "name": "p2p-workshop-signaling",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "@t3-oss/env-core": "^0.12.0",
+    "dotenv": "^16.4.7",
+    "drizzle-orm": "^0.41.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@libsql/client": "^0.15.1",
+    "@types/bun": "^1.2.8",
+    "drizzle-kit": "^0.30.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
